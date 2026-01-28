@@ -1,1 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Merriweather+Sans:wght@400;600&display=swap");
 @import "tailwindcss";
+
+@theme {
+  --font-title: "Raleway", sans-serif;
+  --font-text: "Merriweather Sans", sans-serif;
+}
+
+@layer base {
+  h1 {
+    @apply font-title text-4xl md:text-5xl font-bold mb-2 text-blue-600 drop-shadow-md;
+  }
+  h2 {
+    @apply font-title text-2xl lg:text-3xl font-bold text-gray-700 mb-4;
+  }
+  h3 {
+    @apply font-title text-xl lg:text-2xl font-bold mb-4;
+  }
+  h4 {
+    @apply font-title text-base lg:text-xl font-bold mb-2;
+  }
+  p {
+    @apply font-text text-sm lg:text-base text-gray-600 mb-2;
+  }
+}
