@@ -19,6 +19,9 @@ const Header = () => {
           <a href="#projects" className="hover:text-blue-600">
             Projets
           </a>
+          <a href="#about" className="hover:text-blue-600">
+            A propos
+          </a>
           <a href="#skills" className="hover:text-blue-600">
             Compétences
           </a>
@@ -47,6 +50,9 @@ const Header = () => {
           </a>
           <a onClick={() => setIsOpen(false)} href="#projects">
             Projets
+          </a>
+          <a onClick={() => setIsOpen(false)} href="#about">
+            A propos
           </a>
           <a onClick={() => setIsOpen(false)} href="#skills">
             Compétences

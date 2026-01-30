@@ -8,13 +8,11 @@ const About = () => {
         <h2>Et si je vous parlais un peu de moi</h2>
         <p className="leading-loose">
           Mon parcours ne vient pas du numérique, et c’est justement ce qui fait
-          la différence.
-        </p>
-        <p className="leading-loose">
-          Mon expérience passée dans le bâtiment m’a apporté rigueur, sens de
-          l’organisation et autonomie. Aujourd’hui, je combine une approche
-          terrain (organisation, fiabilité, sens des responsabilités) avec des
-          compétences techniques en intégration front-end.
+          la différence. Mon expérience passée dans le bâtiment m’a apporté
+          rigueur, sens de l’organisation et autonomie. Aujourd’hui, je combine
+          une approche terrain (organisation, fiabilité, sens des
+          responsabilités) avec des compétences techniques en intégration
+          front-end.
         </p>
       </div>
     </section>
