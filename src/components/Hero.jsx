@@ -14,6 +14,8 @@ const Hero = () => {
         <img
           src={webdev}
           alt="illustration Femme développeur"
+          width={1024}
+          height={1024}
           className="w-64 h-64 lg:w-100 lg:h-100 rounded-full object-cover border-4 border-blue-300"
         />
       </div>
