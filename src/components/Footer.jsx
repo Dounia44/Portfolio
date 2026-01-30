@@ -4,7 +4,7 @@ import gmail from "../assets/icons/gmail.svg";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 py-6 mt-20">
+    <footer className="bg-gray-100 py-6">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-6 gap-2">
         <p className="text-gray-600 text-sm">
           © {new Date().getFullYear()} Dounia Huber
