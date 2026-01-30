@@ -22,7 +22,7 @@ const Projects = () => {
             >
               <img
                 src={project.image}
-                alt={project.name}
+                alt={project.imageAlt}
                 className="w-full object-cover"
               />
               <div className="p-6 flex flex-col flex-1">

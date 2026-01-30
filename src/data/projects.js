@@ -12,6 +12,8 @@ const projects = [
 
     image: nina,
 
+    imageAlt: "Capture d'écran de l'interface du site Nina Carducci",
+
     stack: "HTML5, CSS3, JavaScript, Lighthouse, Wave, Schema.org, OpenGraph",
 
     objectifs:
@@ -37,6 +39,8 @@ const projects = [
       "Dans ce projet, on a crée la page d’accueil de l’agence de voyage Booki à partir de maquettes Figma. L'objectif était de transformer le design en une interface web fonctionnelle et responsive",
     image: booki,
 
+    imageAlt: "Capture d'écran de la page d'accueil du site Booki",
+
     stack: "HTML, CSS, Flexbox, Figma, Visual Studio Code, Git",
 
     objectifs:
@@ -58,6 +62,7 @@ const projects = [
     description:
       "Une application web de location immobilière développée en React à partir de maquettes Figma et de données simulées.",
     image: kasa,
+    imageAlt: "Capture d'écran de la page d'accueil de l'application Kasa",
     stack: "React, React Router, JavaScript, Vite, Sass (SCSS), Figma, Git",
     objectifs:
       "Développer l’ensemble du front-end avec React, mettre en place le routage avec React Router, créer les composants de l’interface, gérer les états dynamiques (carrousel, menus déroulants) et respecter fidèlement les maquettes.",
@@ -76,6 +81,8 @@ const projects = [
     description:
       "Le front-end de l’application bancaire ArgentBank développé en React, avec tableau de bord interactif et responsive, intégration des données via API et gestion globale avec Redux.",
     image: argentBank,
+    imageAlt:
+      "Capture d'écran de la page d'accueil de l'application ArgentBank",
     stack: "React, Redux, JavaScript, HTML, CSS, Swagger, Git/GitHub",
     objectifs:
       "Implémenter un tableau de bord bancaire responsive et intuitif, connecter le front-end aux API REST, gérer l’état global avec Redux et assurer une expérience utilisateur cohérente sur tous les appareils.",
