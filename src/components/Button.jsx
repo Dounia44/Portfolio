@@ -8,7 +8,7 @@ const Button = ({
   size = "normal",
 }) => {
   const baseClasses =
-    "rounded-lg font-semibold hover:scale-105 transition-transform";
+    "rounded-lg font-semibold hover:scale-105 transition-transform cursor-pointer";
 
   const variants = {
     primary: "bg-blue-500 text-white hover:bg-blue-600  ",
