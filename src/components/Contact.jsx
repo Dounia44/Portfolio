@@ -29,7 +29,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="py-20 lg:py-40 px-6 bg-linear-to-r from-blue-100 to-purple-100"
+      className="py-20 lg:py-40 px-6 bg-linear-to-r from-blue-50 to-purple-50"
     >
       <div className="container mx-auto text-center mb-12">
         <h2>Me Contacter</h2>

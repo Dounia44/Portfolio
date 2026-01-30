@@ -7,12 +7,12 @@ const AboutParcours = () => {
       id="parcours"
       className="py-20 lg:py-40 px-6 bg-linear-to-r from-blue-100 to-purple-100"
     >
-      <div className="container mx-auto mb-12">
+      <div className="container mx-auto mb-12 lg:px-6 ">
         <h2>Mon parcours</h2>
 
         {/* Liste des expériences */}
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 lg:gap-10">
           {workExperiences.map((exp) => (
             <div
               key={exp.id}
