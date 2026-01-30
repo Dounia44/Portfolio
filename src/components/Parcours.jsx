@@ -19,9 +19,9 @@ const AboutParcours = () => {
               className="bg-white rounded-2xl shadow-lg p-6 border-l-4 border-purple-500"
             >
               <div className="text-sm text-gray-500 mb-2">{exp.year}</div>
-              <h4>
+              <h3>
                 {exp.title} – {exp.company}
-              </h4>
+              </h3>
               {exp.description && <p>{exp.description}</p>}
             </div>
           ))}
