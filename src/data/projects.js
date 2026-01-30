@@ -1,33 +1,43 @@
-import ridingcities from "../assets/images/ridingcities.webp";
-import kasa from "../assets/images/kasa.webp";
+import nina from "../assets/images/nina.webp";
 import booki from "../assets/images/booki.webp";
+import kasa from "../assets/images/kasa.webp";
 import argentBank from "../assets/images/argent-bank.webp";
 
 const projects = [
   {
     id: 1,
-    name: "Riding Cities",
+    name: "Nina Carducci – Optimisation SEO",
     description:
-      "Un projet qui consiter à mettre à jour la page web de l’association Riding Cities.L'objecti était d'intégrer une nouvelle section à partir d'une maquette Figma",
-    image: ridingcities,
-    stack: "HTML, CSS, Figma, Visual Studio Code",
+      "Un projet d’optimisation du référencement, des performances et de l’accessibilité d’un site de photographe.",
+
+    image: nina,
+
+    stack: "HTML5, CSS3, JavaScript, Lighthouse, Wave, Schema.org, OpenGraph",
+
     objectifs:
-      "Créer et mettre à jour la page web, ajouter la section “Les membres fondateurs” et modifier la section de téléchargement pour enfants et adultes.",
+      "Analyser les performances et le SEO du site existant, identifier les problèmes via des audits, proposer puis appliquer des optimisations techniques.",
+
     competences:
-      "Intégration HTML, adaptation de code existant, application de classes CSS, gestion de sections avec images et boutons, utilisation de Figma et VS Code.",
+      "Audit Lighthouse et Wave, optimisation des images, amélioration de la sémantique HTML, référencement local avec Schema.org, ajout de metas SEO et réseaux sociaux, rédaction d’un rapport d’optimisation.",
+
     resultats:
-      "Page conforme à la maquette, section fondateurs intégrée, deux boutons de téléchargement fonctionnels et stylisés.",
-    perspectives: "Optimiser accessibilité et SEO.",
+      "Scores Lighthouse supérieurs à 90 % en performances, SEO et accessibilité. Site plus rapide, mieux structuré et plus visible sur les moteurs de recherche.",
+
+    perspectives:
+      "Mise en place d’un suivi SEO dans le temps, optimisation du contenu éditorial.",
+
+    live: "https://dounia44.github.io/Nina-Carducci/",
+    code: "https://github.com/Dounia44/Nina-Carducci",
   },
 
   {
     id: 2,
     name: "Booki",
     description:
-      "Dans ce projet, j’ai créer la page d’accueil de l’agence de voyage Booki à partir de maquettes Figma. L'objectif était de transformer le design en une interface web fonctionnelle et responsive, offrant uneexpérience agréable sur tous les types d’écrans, qu’il s’agisse de desktop, de tablette ou de mobile..",
+      "Dans ce projet, on a crée la page d’accueil de l’agence de voyage Booki à partir de maquettes Figma. L'objectif était de transformer le design en une interface web fonctionnelle et responsive",
     image: booki,
 
-    stack: "HTML5, CSS3, Flexbox, Figma, Visual Studio Code, Git",
+    stack: "HTML, CSS, Flexbox, Figma, Visual Studio Code, Git",
 
     objectifs:
       "Intégrer fidèlement la page d’accueil en respectant les maquettes desktop, tablette et mobile, mettre en place une structure HTML sémantique et gérer la mise en page avec Flexbox.",
@@ -39,7 +49,7 @@ const projects = [
       "Page d’accueil fonctionnelle et responsive, sections hébergements, filtres, activités et footer intégrées, affichage cohérent sur tous les formats d’écran.",
 
     perspectives:
-      "Ajout d’interactions JavaScript (recherche dynamique, filtres), amélioration de l’accessibilité (ARIA, navigation clavier), optimisation des performances et SEO.",
+      "Améliorer l'aspect graphique et visuel du site pour créer une expérience utilisateur plus agréable, tout en conservant un site performant et accessible.",
   },
 
   {
@@ -56,14 +66,15 @@ const projects = [
     resultats:
       "Application fonctionnelle permettant de consulter des annonces, naviguer entre les pages, afficher des galeries dynamiques, gérer des menus animés et afficher une page 404.",
     perspectives:
-      "Connexion à une vraie API, ajout de recherche et filtres, optimisation des performances et du SEO, amélioration de l’accessibilité et des animations.",
+      "Ajouter un formulaire ou un système de contact pour permettre aux utilisateurs de demander plus d’informations, tout en améliorant l’expérience utilisateur et la réactivité du site.",
+    code: "https://github.com/Dounia44/Kasa",
   },
 
   {
     id: 4,
     name: "Argent Bank",
     description:
-      "Front-end de l’application bancaire ArgentBank développé en React, avec tableau de bord interactif et responsive, intégration des données via API et gestion globale avec Redux.",
+      "Le front-end de l’application bancaire ArgentBank développé en React, avec tableau de bord interactif et responsive, intégration des données via API et gestion globale avec Redux.",
     image: argentBank,
     stack: "React, Redux, JavaScript, HTML, CSS, Swagger, Git/GitHub",
     objectifs:
@@ -74,6 +85,7 @@ const projects = [
       "Tableau de bord complet et responsive, intégration réussie des données utilisateurs via API, application réactive avec gestion des états et interactions intuitives.",
     perspectives:
       "Ajouter des animations pour améliorer l’expérience utilisateur, mise en place d’authentification sécurisée, optimisation des performances, amélioration de l’accessibilité.",
+    code: "https://github.com/Dounia44/ArgentBank-Backend",
   },
 ];
 

@@ -11,25 +11,25 @@ const Projects = () => {
       id="projects"
       className="py-20 lg:py-40 px-6 bg-linear-to-r from-blue-50 to-purple-50"
     >
-      <div className="container mx-auto mb-12 px-6">
+      <div className="container mx-auto mb-12 lg:px-6">
         <h2>Mes Projets</h2>
 
         <div className="grid lg:grid-cols-2 gap-8">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="bg-white rounded-lg shadow-lg overflow-hidden"
+              className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col"
             >
               <img
                 src={project.image}
                 alt={project.name}
                 className="w-full object-cover"
               />
-              <div className="p-6">
+              <div className="p-6 flex flex-col flex-1">
                 <h3>{project.name}</h3>
                 <p>{project.description}</p>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto pt-2">
                   {project.live && (
                     <Button href={project.live} size="small">
                       Voir le site
