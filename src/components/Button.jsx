@@ -18,12 +18,10 @@ const Button = ({
 
   const sizes = {
     normal: "px-6 py-3",
-    small: "px-3 py-1 md:py-1.5",
+    small: "px-1.5 py-1 md:px-2.5 md:py-1.5",
   };
 
   const classes = `${baseClasses} ${variants[variant]} ${sizes[size]}`;
-
-  // lien
   if (href) {
     return (
       <a
