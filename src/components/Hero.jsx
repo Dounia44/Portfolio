@@ -13,9 +13,10 @@ const Hero = () => {
 
         <img
           src={webdev}
-          alt="illustration Femme développeur"
+          alt="illustration Femme développeuse web"
           width={1024}
           height={1024}
+          fetchPriority="high"
           className="w-64 h-64 lg:w-100 lg:h-100 rounded-full object-cover border-4 border-blue-300"
         />
       </div>
