@@ -34,7 +34,7 @@ const Projects = () => {
 
                 <div className="flex gap-3 mt-auto pt-2">
                   {project.live && (
-                    <Button href={project.live} size="small">
+                    <Button href={project.live} target="_blank" size="small">
                       Voir le site
                     </Button>
                   )}
@@ -42,6 +42,7 @@ const Projects = () => {
                     <Button
                       href={project.code}
                       variant="secondary"
+                      target="_blank"
                       size="small"
                     >
                       Voir le code

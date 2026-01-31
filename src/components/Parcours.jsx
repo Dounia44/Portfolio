@@ -30,7 +30,7 @@ const AboutParcours = () => {
         {/* Bouton CV */}
         <div className="text-center mt-12">
           <p className="mb-5">Pour plus d’informations sur mon parcours :</p>
-          <Button href="/cv-dounia-huber.pdf" download>
+          <Button href="/cv-dounia-huber.pdf" target="_blank" download>
             Télécharger mon CV
           </Button>
         </div>
