@@ -20,7 +20,7 @@ const projects = [
       "Audit Lighthouse et Wave, optimisation des images, amélioration de la sémantique HTML, référencement local avec Schema.org, ajout de metas SEO et réseaux sociaux, rédaction d’un rapport d’optimisation.",
     resultats:
       "Scores Lighthouse supérieurs à 90 % en performances, SEO et accessibilité. Site plus rapide, mieux structuré et plus visible sur les moteurs de recherche.",
-    perspectives: "Mise en place d’un suivi SEO dans le temps.",
+    améliorations: "Mise en place d’un suivi SEO dans le temps.",
     live: "https://dounia44.github.io/Nina-Carducci/",
     code: "https://github.com/Dounia44/Nina-Carducci",
   },
@@ -41,7 +41,7 @@ const projects = [
       "Découpage et analyse de maquette, intégration HTML sémantique, mise en page avec Flexbox, création de cartes et composants, responsive design, validation du code avec W3C.",
     resultats:
       "Page d’accueil fonctionnelle et responsive, sections hébergements, filtres, activités et footer intégrées, affichage cohérent sur tous les formats d’écran.",
-    perspectives:
+    améliorations:
       "Améliorer l'aspect graphique et visuel du site pour créer une expérience utilisateur plus agréable, tout en conservant un site performant et accessible.",
   },
 
@@ -61,7 +61,7 @@ const projects = [
       "Création d’une application React complète, utilisation de React Router, développement de composants réutilisables, gestion des états et événements, intégration Figma, structuration du CSS avec Sass.",
     resultats:
       "Application fonctionnelle permettant de consulter des annonces, naviguer entre les pages, afficher des galeries dynamiques, gérer des menus animés et afficher une page 404.",
-    perspectives:
+    améliorations:
       "Ajouter un formulaire ou un système de contact pour permettre aux utilisateurs de demander plus d’informations, tout en améliorant l’expérience utilisateur et la réactivité du site.",
     code: "https://github.com/Dounia44/Kasa",
   },
@@ -83,7 +83,7 @@ const projects = [
       "Utilisation de React pour créer des composants réutilisables respectueux du Green Code, gestion de l’état global avec Redux, structuration et organisation d’une application complexe, bonnes pratiques pour un code maintenable et scalable.",
     resultats:
       "Tableau de bord complet et responsive, intégration réussie des données utilisateurs via API, application réactive avec gestion des états et interactions intuitives.",
-    perspectives:
+    améliorations:
       "Ajouter des animations pour améliorer l’expérience utilisateur.",
     code: "https://github.com/Dounia44/ArgentBank-Backend",
   },

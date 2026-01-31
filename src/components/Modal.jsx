@@ -40,10 +40,10 @@ const Modal = ({ project, onClose }) => {
             <p>{project.resultats}</p>
           </div>
         )}
-        {project.perspectives && (
+        {project.améliorations && (
           <div>
-            <h3 className="mb-2">Perspectives:</h3>
-            <p>{project.perspectives}</p>
+            <h3 className="mb-2">améliorations:</h3>
+            <p>{project.améliorations}</p>
           </div>
         )}
       </div>
