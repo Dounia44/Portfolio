@@ -11,9 +11,9 @@ const Button = ({
     "rounded-lg font-semibold hover:scale-105 transition-transform cursor-pointer";
 
   const variants = {
-    primary: "bg-blue-500 text-white hover:bg-blue-600  ",
+    primary: "bg-blue-600 text-white hover:bg-blue-700",
     secondary:
-      "border-2 border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white",
+      "border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white",
   };
 
   const sizes = {
