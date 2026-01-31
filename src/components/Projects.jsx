@@ -26,6 +26,7 @@ const Projects = () => {
                 width={project.width}
                 height={project.height}
                 className="w-full object-cover"
+                loading="lazy"
               />
               <div className="p-6 flex flex-col flex-1">
                 <h3>{project.name}</h3>
