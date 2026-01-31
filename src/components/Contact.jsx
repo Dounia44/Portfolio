@@ -1,12 +1,14 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import Button from "./Button";
 
 const Contact = () => {
   const formRef = useRef();
+  const [status, setStatus] = useState("");
 
   const sendEmail = (e) => {
     e.preventDefault();
+    setStatus("sending");
 
     emailjs
       .sendForm(
@@ -17,12 +19,14 @@ const Contact = () => {
       )
       .then(
         () => {
-          alert("Message envoyé !");
+          setStatus("success");
           formRef.current.reset();
+          setTimeout(() => setStatus(""), 5000);
         },
         (error) => {
+          setStatus("error");
           console.error(error);
-          alert("Erreur lors de l'envoi");
+          setTimeout(() => setStatus(""), 5000);
         },
       );
   };
@@ -52,6 +56,8 @@ const Contact = () => {
             placeholder="Entrez votre nom"
             className="form-input"
             required
+            autoComplete="name"
+            disabled={status === "sending"}
           />
         </div>
 
@@ -66,6 +72,8 @@ const Contact = () => {
             placeholder="Saisissez votre adresse email"
             className="form-input"
             required
+            autoComplete="email"
+            disabled={status === "sending"}
           />
         </div>
 
@@ -80,11 +88,25 @@ const Contact = () => {
             rows="4"
             className="form-textarea"
             required
+            autoComplete="off"
+            disabled={status === "sending"}
           />
         </div>
 
+        {status === "success" && (
+          <p className="text-green-700 text-center">
+            Le message a été bien envoyé !
+          </p>
+        )}
+
+        {status === "error" && (
+          <p className="text-red-700 text-center">Erreur lors de l'envoi.</p>
+        )}
+
         <div className="text-center">
-          <Button type="submit">Envoyer</Button>
+          <Button type="submit" disabled={status === "sending"}>
+            Envoyer
+          </Button>
         </div>
       </form>
     </section>
