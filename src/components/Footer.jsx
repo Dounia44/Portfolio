@@ -35,7 +35,11 @@ const Footer = () => {
             />
           </a>
 
-          <a href="" target="_blank" rel="noopener noreferrer">
+          <a
+            href="mailto:huber.dounia@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img
               src={gmail}
               alt="Gmail"
