@@ -9,7 +9,7 @@ const Hero = () => {
     >
       {/* Cercles + image */}
       <div className="mb-6 flex justify-center items-center">
-        <div className="absolute w-64 h-64 md:w-105 md:h-105 rounded-full border-4 border-purple-300"></div>
+        <div className="absolute w-68 h-68 lg:w-105 lg:h-105 rounded-full border-3 lg:border-4 border-purple-300"></div>
 
         <img
           src={webdev}
@@ -17,7 +17,7 @@ const Hero = () => {
           width={1024}
           height={1024}
           fetchPriority="high"
-          className="w-64 h-64 lg:w-100 lg:h-100 rounded-full object-cover border-4 border-blue-300"
+          className="w-64 h-64 lg:w-100 lg:h-100 rounded-full object-cover border-3 lg:border-4 border-blue-300"
         />
       </div>
       <h1 className="mb-5">Dounia Huber</h1>
